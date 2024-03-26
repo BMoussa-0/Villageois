@@ -11,13 +11,7 @@ Console.WriteLine(a.getNom()); //le nom de a
 Console.WriteLine(a.getPoids());//le poids de a
 Console.WriteLine(a.poidsSouleve()+"Kg");//le poids souleve de a et b
 Console.WriteLine(a.soulevememepoids(b));//compare a et b
-string res = "";
-if (a.soulevememepoids(b)) { res = "Les villageois ont la même force"; }
-else { if (a.getPoids() > b.getPoids()) { res = "Le villageois a est plus fort que le villageois b"; }
-else { res = "Le villageois b est plus fort que le villageois a"; }
-}
-
-Console.WriteLine(res);
+Console.WriteLine(a.plusFort(b));
 
 a.setDose(3);
 

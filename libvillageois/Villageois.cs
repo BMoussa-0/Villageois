@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace libvillageois
 {
@@ -13,6 +14,8 @@ namespace libvillageois
         {
             this.nom = nom;
             this.malade = false;
+            this.maPotion = new Potions(0);
+
         }
 
         public Villageois(string nom, int poids, bool malade)
@@ -20,6 +23,7 @@ namespace libvillageois
             this.nom = nom;
             this.poids = poids;
             this.malade = malade;
+            this.maPotion = new Potions(0);
 
         }
 
@@ -76,7 +80,7 @@ namespace libvillageois
             else
             {
                 if (poids > b.getPoids()) { res = "Le villageois a est plus fort que le villageois b"; }
-                else { res = "Le villageois b est plus fort que le villageois a"; }
+                else { res = $"Le villageois {b.getNom()} est plus fort que le villageois {this.getNom()}"; }
             }
             return res;
         }
