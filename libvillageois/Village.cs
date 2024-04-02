@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,12 +32,17 @@ namespace libvillageois
             mesHabitants.Add(villageois);
         }
         
-        public string GetVillageois(string name)
+        public Villageois GetVillageois(string name)
         {
-            return this.name;
+            Villageois a=null;
+            foreach (var habitant in mesHabitants) 
+            {
+                if (name == habitant.getNom()) { a = habitant; }
+            }
+            return a;   
         }
         
-        public string GetNom()
+        public string GetNomVillage()
         {
             return this.name;
         }

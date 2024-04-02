@@ -31,6 +31,6 @@ villageGaulois.AjouterVillageois(b);
 
 villageGaulois.AjouterNewVillageois("Homéopatix", 20, true, 3);
 
-Console.WriteLine(villageGaulois.GetVillageois("Panoramix").ToString());
+Console.WriteLine(villageGaulois.GetVillageois("Abraracourcix").ToString());
 
-Console.WriteLine($"Il y a {villageGaulois.GetHabitants().Count} habitants dans le village {villageGaulois.GetNom()}");
+Console.WriteLine($"Il y a {villageGaulois.GetHabitants().Count} habitants dans le village {villageGaulois.GetNomVillage()}");

@@ -43,7 +43,7 @@ namespace libvillageois
 
         public int getPoids() { return this.poids; }
 
-        public string ToString(string nom, int poids, bool malade)
+        public override string ToString()
         {
             return "Le villageois se nomme" + nom + "il peut soulever" + poids + "et est" + malade;
         }
@@ -84,6 +84,8 @@ namespace libvillageois
             }
             return res;
         }
+
+        
     }
 
 }
