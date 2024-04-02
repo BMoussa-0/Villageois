@@ -22,3 +22,15 @@ Console.WriteLine ("Apres les doses " + a.plusFort(b));
 Console.WriteLine( $"{a.getNom()} soulève {a.poidsSouleve()} poids");
 
 Console. WriteLine($"{b.getNom()} soulève {b.poidsSouleve()} poids");
+
+Village villageGaulois = new Village(5000, "glenBret", "petit village");
+
+villageGaulois.AjouterVillageois(a);
+
+villageGaulois.AjouterVillageois(b);
+
+villageGaulois.AjouterNewVillageois("Homéopatix", 20, true, 3);
+
+Console.WriteLine(villageGaulois.GetVillageois("Panoramix").ToString());
+
+Console.WriteLine($"Il y a {villageGaulois.GetHabitants().Count} habitants dans le village {villageGaulois.GetNom()}");

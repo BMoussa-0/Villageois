@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villageois", "Villageois\Villageois.csproj", "{14621042-2330-4DA3-8599-30E9A5F75E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Villageois", "Villageois\Villageois.csproj", "{14621042-2330-4DA3-8599-30E9A5F75E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libvillageois", "libvillageois\libvillageois.csproj", "{14E13CD7-0AAF-45E0-B431-4D483431CAB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libvillageois", "libvillageois\libvillageois.csproj", "{14E13CD7-0AAF-45E0-B431-4D483431CAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Village", "Village\Village.csproj", "{F9A1A8AB-188E-4EFB-865B-22C2D8941FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{14E13CD7-0AAF-45E0-B431-4D483431CAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E13CD7-0AAF-45E0-B431-4D483431CAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E13CD7-0AAF-45E0-B431-4D483431CAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A1A8AB-188E-4EFB-865B-22C2D8941FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A1A8AB-188E-4EFB-865B-22C2D8941FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A1A8AB-188E-4EFB-865B-22C2D8941FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A1A8AB-188E-4EFB-865B-22C2D8941FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
